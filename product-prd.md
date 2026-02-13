@@ -32,7 +32,7 @@ Users need one interface that hides database complexity while keeping control, p
 2. Local profile and workspace model (on-device).
 3. Data source onboarding:
    - Secure credential entry.
-   - Local connection testing.
+   - Local connection testing and credential storage.
 4. Supported connectors:
    - Relational: PostgreSQL, MySQL
    - NoSQL: MongoDB
@@ -43,6 +43,7 @@ Users need one interface that hides database complexity while keeping control, p
    - Natural language prompt.
    - Query generation per source type.
    - Mandatory query approval before execution.
+   - Ability to execute query and apply NLP conversion before showing results.
 6. Visualization:
    - Auto chart recommendation (table, line, bar, pie, scatter, graph view).
    - Manual chart switching.
