@@ -92,6 +92,10 @@ Users need one interface that hides database complexity while keeping control, p
    - Multi-turn context in local chat history.
 9. Local audit trail:
    - Append-only logs for critical actions.
+10. Ability for user to provide feedback:
+   - Change queries based on feedback from Users.
+   - Cache the query changes for future use on dataset
+   
 
 ## 7. Non-Functional Requirements
 
